@@ -18,6 +18,16 @@ module.exports = {
 					presets:["env", "react"]
 				}
 			},
+
+			{
+				test: /\.less$/,
+				exclude: /(node_modules)/,
+				use:[
+					'style-loader',
+					'css-loader',
+					'less-loader'
+				],
+			},
 		]
 	},
 }
