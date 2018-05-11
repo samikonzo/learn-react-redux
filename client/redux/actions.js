@@ -32,4 +32,3 @@ export function setVisibilityFilter(filter){
 		filter
 	}
 }
-
